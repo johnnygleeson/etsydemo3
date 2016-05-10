@@ -13,6 +13,7 @@ gem 'sass-rails', '>= 3.2'
 gem 'paperclip', '~> 4.3', '>= 4.3.6'
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
+gem 'devise'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :production do
