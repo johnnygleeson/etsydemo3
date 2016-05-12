@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160512064520) do
+ActiveRecord::Schema.define(version: 20160512072734) do
 
   create_table "listings", force: :cascade do |t|
     t.string   "name"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20160512064520) do
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
     t.string   "dropbox_session"
+    t.integer  "user_id"
   end
 
   create_table "users", force: :cascade do |t|
